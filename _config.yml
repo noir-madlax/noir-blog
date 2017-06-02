@@ -1,8 +1,8 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: Noir Blog
+SEOTitle: 你的博客 | Noir Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: zxj8911@gmail.com
 description: ""
 keyword: ""
 url: "http://noir-madlax.github.io"              # your host, for absolute URL
@@ -12,11 +12,11 @@ baseurl: "/noir-blog"         					 # for example, '/blog' if your blog hosted o
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     #
+zhihu_username:     #
+github_username:    noir-madlax
+#twitter_username:  noir
+facebook_username:  #
 
 
 
@@ -28,7 +28,9 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
+#解决bundle监听时不能自动进行编译
+repository: noir-madlax/noir-blog
+github: [metadata] 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -68,7 +70,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar-about-description: "吃货程序员一枚"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -86,15 +88,6 @@ friends: [
         href: "http://huangxuan.me"
     },{
         title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
         href: "#"
     }
 ]

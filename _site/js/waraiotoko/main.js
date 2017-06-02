@@ -1,4 +1,4 @@
-window.onload = function () {
+﻿window.onload = function () {
     var paper = new SVG('waraiotoko').size( '687.1', '624.5');
     var group = paper.group();
     var s = "I thought what I'd do was, I'd pretend I was one of those deaf-mutes.";

@@ -102,10 +102,12 @@ layout: default
                 <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
- aaa
-                        <div id="waraiotoko" style="transform: scale(0.5)"></div>
 
+ 
                         {% if site.sidebar-avatar %}
+                            <div id="waraiotoko" style="transform: scale(0.3);height: 300px; margin-left: -100px; margin-top: -100px;"></div>
+                            <script src="{{ "/js/waraiotoko/svg.min.js " | prepend: site.baseurl }}"></script>
+                            <script src="{{ "/js/waraiotoko/main.js " | prepend: site.baseurl }}"></script>
                             <!-- <img src="{{site.baseurl}}{{site.sidebar-avatar}}" /> -->
                         {% endif %}
                         {% if site.sidebar-about-description %}

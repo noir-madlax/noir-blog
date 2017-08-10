@@ -13,6 +13,7 @@ tags:
 ```
 检索进程：ps -ef
 查看磁盘空间：df -hl
+查看当前目录下一级子文件和子目录占用的磁盘容量: du -lh --max-depth=1
 查找文件：find -name {name}
 查看md5：md5sum {filePath}
 检索目标及后n行：grep -A {n} {name}

@@ -19,4 +19,5 @@ tags:
 检索目标及后n行：grep -A {n} {name}
 检索目标及前n行：grep -B {n} {name}
 检索目标及前后n行：grep -C {n} {name}
+查看正在监听的端口和进程：lsof -nP | grep TCP | grep LISTEN
 ```
